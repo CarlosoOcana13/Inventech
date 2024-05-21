@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<style>
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del Encabezado */
+header {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+/* Estilos de las Secciones */
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: #007bff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Estilos de la Sección de Descarga */
+#download {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  text-align: center;
+  padding: 60px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos de la Sección de los Creadores */
+#creadores {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#creadores img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos del Pie de Página */
+footer {
+  background-color: #1f1c2c;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Estilos adicionales */
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 20px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Inventech - Sitio Web Oficial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="container">
+      <img src="logo.png" alt="Inventech Logo">
+      <h1>Inventech</h1>
+    </div>
+  </header>
+
+  <!-- Sección de Descarga -->
+  <section id="download">
+    <div class="container">
+      <h2>¡Descarga nuestro innovador programa!</h2>
+      <p>¡Transforma tu experiencia tecnológica!</p>
+      <a href="C:\Users\Administrador\Desktop\Aplicacion/Inventech.zip" class="button" download="Inventech.zip">Descargar ahora</a>
+    </div>
+  </section>
+
+  <!-- Sección de Objetivo -->
+  <section id="objetivo">
+    <div class="container">
+      <h2>Objetivo de Inventech</h2>
+      <p>En Inventech, nuestro objetivo es desarrollar soluciones tecnológicas avanzadas que revolucionen la forma en que interactuamos con la tecnología en la vida cotidiana.</p>
+    </div>
+  </section>
+
+  <!-- Sección de Misión y Visión -->
+  <section id="mision-vision">
+    <div class="container">
+      <h2>Misión y Visión</h2>
+      <p><strong>Misión:</strong> Impulsar la innovación tecnológica para crear un futuro más inteligente y conectado.</p>
+      <p><strong>Visión:</strong> Ser líderes en el desarrollo de tecnologías disruptivas que mejoren la calidad de vida de las personas en todo el mundo.</p>
+    </div>
+  </section>
+
+  <!-- Sección de los Creadores -->
+  <section id="creadores">
+    <div class="container">
+      <h2>Conoce a nuestros talentosos creadores</h2>
+      <img src="creators.jpg" alt="Foto de los creadores">
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Inventech - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
